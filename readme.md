@@ -1,3 +1,4 @@
+
 # Atrial Fibrillation Detection with Arbitrary Leads via a Codebook\-Based Reconstruction\-Classification Framework
 
 This repository contains the official implementation of the paper:**Atrial Fibrillation Detection with Arbitrary Leads via a Codebook\-Based Reconstruction\-Classification Framework**\.
@@ -27,5 +28,5 @@ Version: 1.16.3
 ## Framework Overview
 
 The proposed codebook\-based reconstruction\-classification framework for AF detection is illustrated below:
-![framework](https://github.com/Ou-Young-1999/DCGCNet/results/framework.png)
+<img width="1412" height="806" alt="framework" src="https://github.com/user-attachments/assets/b7accfa7-97c6-4168-ba3f-0ef16ab63fe3" />
 

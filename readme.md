@@ -27,5 +27,5 @@ Version: 1.16.3
 ## Framework Overview
 
 The proposed codebook\-based reconstruction\-classification framework for AF detection is illustrated below:
-![framework](./results/framework.png)
+![framework]((https://github.com/Ou-Young-1999/DCGCNet/results/framework.png?raw=true))
 

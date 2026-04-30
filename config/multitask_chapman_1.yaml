@@ -1,0 +1,23 @@
+# config.yaml
+
+data:
+  train_csv: "./dataset_preprocess/chapman/fold_5_train.csv"
+  val_csv: "./dataset_preprocess/chapman/test.csv"
+  test_csv: "./dataset_preprocess/chapman/test.csv"
+  data_root_dir: "/home/oyxq/PythonProjects/dataset/Chapman/PTDB"
+
+model:
+  name: 'multitask'
+  num_classes: 2
+
+training:
+  batch_size: 16
+  num_epochs: 50
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  device: "cuda"  # or "cpu"
+  seed: 42
+  oversample: false
+  save_checkpoint: true
+  checkpoint_path: "./checkpoints/multitask_chapman_1.pth"
+  result: "./results/multitask_chapman_1"

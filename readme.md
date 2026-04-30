@@ -7,7 +7,7 @@ The code provides a complete pipeline for atrial fibrillation \(AF\) detection u
 
 ## Dependencies
 
-The following dependencies are required to run the code\. Install them using `pip install \&lt;package\&gt;==\&lt;version\&gt;`:
+The following dependencies are required to run the code\. Install them using `pip install package==version:
 
 ```plain text
 Name: torch
